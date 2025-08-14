@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rusted Barbell — Forged in Sweat. Built to Last.</title>
+  <meta name="description" content="Rusted Barbell — gym, training, and hardcore apparel. No Mercy. No Weakness." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@300;400;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <meta property="og:title" content="Rusted Barbell">
+  <meta property="og:description" content="Strength that never rests. Apparel + Gym.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/og-image.png">
+  <link rel="icon" href="assets/favicon.png">
+</head>
+<body>
+<header class="site-header">
+  <div class="container flex between center">
+    <a class="brand" href="#home">
+      <img src="assets/logo.svg" alt="Rusted Barbell logo" class="logo">
+      <span>Rusted Barbell</span>
+    </a>
+    <nav class="nav">
+      <a href="#shop">Shop</a>
+      <a href="#gym">Gym</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="btn">Join</a>
+    </nav>
+  </div>
+</header>
+
+<section id="home" class="hero">
+  <div class="overlay"></div>
+  <div class="container hero-inner">
+    <h1>FORGED IN SWEAT.<br>BUILT TO LAST.</h1>
+    <p class="lead">Old Iron. New Power. Strength that never rests.</p>
+    <div class="cta-row">
+      <a href="#shop" class="btn primary">Shop Apparel</a>
+      <a href="#gym" class="btn ghost">Get a Day Pass</a>
+    </div>
+  </div>
+</section>
+
+<section id="shop" class="section">
+  <div class="container">
+    <div class="section-head">
+      <h2>Apparel</h2>
+      <p>Blood, Sweat, Rust — gear for the trenches.</p>
+    </div>
+    <div class="grid products">
+      <article class="card">
+        <img src="assets/prod-tee.png" alt="Rusted Barbell Tee">
+        <h3>RB Heavyweight Tee</h3>
+        <p>Oversized fit. Built for work sets.</p>
+        <a class="btn small" href="#" target="_blank" rel="noopener">Buy Now</a>
+      </article>
+      <article class="card">
+        <img src="assets/prod-hoodie.png" alt="Rusted Barbell Hoodie">
+        <h3>RB Oversized Hoodie</h3>
+        <p>No mercy comfort. Coyote accents.</p>
+        <a class="btn small" href="#" target="_blank" rel="noopener">Buy Now</a>
+      </article>
+      <article class="card">
+        <img src="assets/prod-stringer.png" alt="Rusted Barbell Stringer">
+        <h3>RB Stringer Tank</h3>
+        <p>Mobility for combat sets.</p>
+        <a class="btn small" href="#" target="_blank" rel="noopener">Buy Now</a>
+      </article>
+    </div>
+    <div class="center">
+      <a class="btn ghost" href="#" target="_blank" rel="noopener">View Full Store</a>
+    </div>
+  </div>
+</section>
+
+<section id="gym" class="section dark">
+  <div class="container">
+    <div class="section-head">
+      <h2>Gym</h2>
+      <p>No excuses. No quit.</p>
+    </div>
+    <div class="grid two">
+      <div>
+        <ul class="bullets">
+          <li>24/7 access with key fob</li>
+          <li>Competition racks, calibrated plates</li>
+          <li>Turf lane, sleds, prowlers</li>
+          <li>Coaching: strength, conditioning, combat prep</li>
+        </ul>
+        <div class="pricing">
+          <div class="price-card">
+            <h3>Day Pass</h3>
+            <div class="price">$15</div>
+            <p>One session. No commitment.</p>
+            <a class="btn small" href="#contact">Get Pass</a>
+          </div>
+          <div class="price-card highlight">
+            <h3>Monthly</h3>
+            <div class="price">$49</div>
+            <p>Unlimited access. Cancel anytime.</p>
+            <a class="btn small" href="#contact">Join</a>
+          </div>
+          <div class="price-card">
+            <h3>Coaching</h3>
+            <div class="price">$199+</div>
+            <p>1:1 or small group programming.</p>
+            <a class="btn small" href="#contact">Apply</a>
+          </div>
+        </div>
+      </div>
+      <div class="card facility">
+        <img src="assets/gym-placeholder.jpg" alt="Rusted Barbell Gym">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="container narrow">
+    <h2>About Rusted Barbell</h2>
+    <p>Born in the trenches. We build strength that survives the storm — gear, coaching, and a culture that doesn’t forgive.</p>
+    <div class="badges">
+      <span>No Mercy. No Weakness.</span>
+      <span>War Ready Strength</span>
+      <span>Built in the Trenches</span>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section dark">
+  <div class="container narrow">
+    <h2>Join the Unit</h2>
+    <p>Questions about memberships, coaching, or wholesale apparel? Hit us.</p>
+    <form class="contact-form" action="https://formspree.io/f/your-id" method="POST">
+      <div class="grid two">
+        <input required name="name" placeholder="Name">
+        <input required name="email" type="email" placeholder="Email">
+      </div>
+      <input name="subject" placeholder="Subject">
+      <textarea required name="message" rows="5" placeholder="Tell us what you need."></textarea>
+      <button class="btn primary" type="submit">Send</button>
+      <p class="tiny">By submitting you agree to our <a href="#privacy">Privacy Policy</a>.</p>
+    </form>
+    <div class="social">
+      <a href="#" aria-label="Instagram">Instagram</a>
+      <a href="#" aria-label="TikTok">TikTok</a>
+      <a href="#" aria-label="YouTube">YouTube</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container flex between center">
+    <small>© <span id="year"></span> Rusted Barbell. All Rights Reserved.</small>
+    <small><a href="#terms">Terms</a> · <a href="#privacy">Privacy</a></small>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
