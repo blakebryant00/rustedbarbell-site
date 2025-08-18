@@ -56,4 +56,9 @@ img{max-width:100%;display:block}.container{width:min(1100px,92%);margin:0 auto}
   background-color: #a67c52;   /* slightly darker gold on hover */
   border-color: #a67c52;
   color: #fff;                 /* white text when hovering */
+} .price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #c49a6c; /* gold color to match your theme */
+  margin: 0.5rem 0;
 }
