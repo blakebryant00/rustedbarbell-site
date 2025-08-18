@@ -37,3 +37,5 @@ img{max-width:100%;display:block}.container{width:min(1100px,92%);margin:0 auto}
 .social a:hover {
   color: #c49a6c;       /* gold hover color */
 }
+.product-image { width: 100%; display: block; }
+.btn.small { margin-top: 8px; }
