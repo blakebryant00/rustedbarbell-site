@@ -62,3 +62,34 @@ img{max-width:100%;display:block}.container{width:min(1100px,92%);margin:0 auto}
   color: #c49a6c; /* gold color to match your theme */
   margin: 0.5rem 0;
 }
+/* Product description dropdown */
+.product-details { margin: 8px 0 12px; }
+
+.product-details summary {
+  list-style: none;                 /* hide default marker */
+  cursor: pointer;
+  display: inline-block;
+  padding: .5rem .8rem;
+  border: 1px solid #333;
+  border-radius: 6px;
+  font-size: .9rem;
+  text-transform: none;
+  background: transparent;
+  transition: background .2s, border-color .2s;
+}
+
+/* Remove default triangle in Safari/Chrome */
+.product-details summary::-webkit-details-marker { display: none; }
+
+.product-details[open] summary {
+  background: rgba(255,255,255,0.06);
+  border-color: #555;
+}
+
+.product-details p,
+.product-details ul {
+  margin: .75rem 0 0;
+  color: #cfcfcf;                   /* matches your muted text */
+}
+
+.product-details ul { padding-left: 1.2rem; }
