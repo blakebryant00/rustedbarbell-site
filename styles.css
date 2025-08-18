@@ -26,3 +26,14 @@ img{max-width:100%;display:block}.container{width:min(1100px,92%);margin:0 auto}
 .contact-form input,.contact-form textarea{background:#0d0d0d;border:1px solid #2a2a2a;color:var(--text);padding:.9rem;border-radius:8px}
 .contact-form .tiny{font-size:.8rem;color:var(--muted)}.social{display:flex;gap:1rem;justify-content:center;margin-top:1rem}
 .site-footer{border-top:1px solid #222;padding:1rem 0;background:#0a0a0a}.narrow{width:min(760px,92%);margin:0 auto}.center{text-align:center}
+.social a {
+  font-size: 2rem;      /* icon size */
+  margin: 0 10px;       /* space between icons */
+  color: white;         /* default color */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social a:hover {
+  color: #c49a6c;       /* gold hover color */
+}
