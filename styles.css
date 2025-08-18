@@ -38,4 +38,11 @@ img{max-width:100%;display:block}.container{width:min(1100px,92%);margin:0 auto}
   color: #c49a6c;       /* gold hover color */
 }
 .product-image { width: 100%; display: block; }
-.btn.small { margin-top: 8px; }
+.btn.small { margin-top: 8px; } /* Smooth fade effect for tee flip */
+#teeImage {
+  transition: opacity 0.25s ease-in-out;
+}
+
+#teeImage.fading {
+  opacity: 0;
+} 
