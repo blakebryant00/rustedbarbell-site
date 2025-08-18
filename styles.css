@@ -45,4 +45,15 @@ img{max-width:100%;display:block}.container{width:min(1100px,92%);margin:0 auto}
 
 #teeImage.fading {
   opacity: 0;
-} 
+} /* Make action buttons stay gold instead of gray */
+.btn.small {
+  background-color: #c49a6c;   /* gold */
+  color: #000;                 /* black text for contrast */
+  border: 1px solid #c49a6c;
+}
+
+.btn.small:hover {
+  background-color: #a67c52;   /* slightly darker gold on hover */
+  border-color: #a67c52;
+  color: #fff;                 /* white text when hovering */
+}
