@@ -107,3 +107,9 @@ img{max-width:100%;display:block}.container{width:min(1100px,92%);margin:0 auto}
     height: 32px;
   }
 }
+.navbar-logo {
+  height: 40px;   /* Adjust size to fit nicely */
+  width: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
