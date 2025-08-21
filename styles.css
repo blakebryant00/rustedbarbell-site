@@ -93,7 +93,7 @@ img{max-width:100%;display:block}.container{width:min(1100px,92%);margin:0 auto}
 }
 
 .brand .logo {
-  height: 80px;         /* fills navbar height */
+  height: 100px;         /* fills navbar height */
   width: auto;          /* keep proportions */
   display: inline-block;
   vertical-align: middle;
