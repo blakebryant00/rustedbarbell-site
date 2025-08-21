@@ -92,19 +92,12 @@ img{max-width:100%;display:block}.container{width:min(1100px,92%);margin:0 auto}
   color: #cfcfcf;                   /* matches your muted text */
 }
 
-.product-details ul { padding-left: 1.2rem; }
 .brand .logo {
-  width: 28px;
-  height: 28px;
+  height: 100%;         /* fills navbar height */
+  width: auto;          /* keep proportions */
   display: inline-block;
   vertical-align: middle;
-  object-fit: contain;
 }
-
-@media (min-width: 768px) {
-  .brand .logo {
-    width: 32px;
-    height: 32px;
   }
 }
 .navbar-logo {
