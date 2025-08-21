@@ -93,3 +93,17 @@ img{max-width:100%;display:block}.container{width:min(1100px,92%);margin:0 auto}
 }
 
 .product-details ul { padding-left: 1.2rem; }
+.brand .logo {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  vertical-align: middle;
+  object-fit: contain;
+}
+
+@media (min-width: 768px) {
+  .brand .logo {
+    width: 32px;
+    height: 32px;
+  }
+}
